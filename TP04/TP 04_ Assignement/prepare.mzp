@@ -1,0 +1,28 @@
+{
+    "openFiles": [
+        "prepare.mzn",
+        "data/prepare1.dzn"
+    ],
+    "openTab": 1,
+    "projectFiles": [
+        "data/prepare1.dzn",
+        "data/prepare10.dzn",
+        "data/prepare11.dzn",
+        "data/prepare12.dzn",
+        "data/prepare13.dzn",
+        "data/prepare14.dzn",
+        "data/prepare2.dzn",
+        "data/prepare3.dzn",
+        "data/prepare4.dzn",
+        "data/prepare5.dzn",
+        "data/prepare6.dzn",
+        "data/prepare7.dzn",
+        "data/prepare8.dzn",
+        "data/prepare9.dzn",
+        "prepare.mzc",
+        "prepare.mzn",
+        "solv_conf.mpc"
+    ],
+    "selectedSolverConfigFile": "solv_conf.mpc",
+    "version": 106
+}

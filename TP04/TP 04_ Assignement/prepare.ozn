@@ -1,0 +1,6 @@
+output ["\"output\": {","\"default\": ",showJSON(concat(["makespan = ",show(makespan),"\n"]++[show_int(3,s[t])++" " | t in TASK])),", \"raw\": ",showJSON(concat(["makespan = ",show(makespan),"\n"]++[show_int(3,s[t])++" " | t in TASK])),"}, \"sections\": [\"default\", \"raw\"]"];
+set of int: TASK = 1..8;
+array [TASK] of int: s;
+array [TASK] of int: d = [1,5,6,4,9,4,8,7];
+array [TASK] of int: e = [s[t]+d[t] | t in TASK];
+int: makespan = max(e);

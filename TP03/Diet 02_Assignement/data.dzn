@@ -1,0 +1,15 @@
+% data
+% 
+n=2  ; %Number of nutrients
+num_foods=3    ; %Number of foods
+F = 1..num_foods; %set of foods
+N = 1..n; %set of nutrients
+
+a =  array2d(1..num_foods,1..n, [107, 72, 500, 121, 0, 65]); %amount of nutrient j in food i, ∀i∈F, ∀j∈N
+ci =[160, 60, 10] ; %cost per serving of food i, ∀i∈F
+%ci =[0.18, 0.23, 0.05] ;
+Fmin =[0, 0, 0];%minimum number of required servings of food i, ∀i∈F
+Fmax =[10, 10, 11] ;%maximum allowable number of servings of food i, ∀i∈F
+Nmin =[5000, 2000] ;%minimum required level of nutrient j, ∀j∈N
+Nmax =[50000, 2250] ;%maximum allowable level of nutrient j, ∀j∈N
+

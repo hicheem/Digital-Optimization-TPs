@@ -1,0 +1,18 @@
+{
+    "builtinSolverConfigs": [
+    ],
+    "openFiles": [
+        "diet_2.mzn",
+        "data.dzn"
+    ],
+    "openTab": 0,
+    "projectFiles": [
+        "data.dzn",
+        "diet_2.mzn"
+    ],
+    "projectSolverConfigs": [
+    ],
+    "selectedBuiltinConfigId": "org.minizinc.mip.coin-bc",
+    "selectedBuiltinConfigVersion": "2.10/1.17",
+    "version": 105
+}
